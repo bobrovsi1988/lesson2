@@ -1,0 +1,39 @@
+*{margin: 0;
+padding: 0}
+table{width: 100%;
+height: 100vh;
+text-align: center;
+    color: yellow;
+}
+.header{
+    height: 10%;
+}
+
+.header td{
+
+    background: #232323;
+}
+
+.content{
+    height: 40%;
+
+}
+.content td{
+
+    background: deepskyblue;
+}
+.content2{
+height: 35%;
+}
+.content2 td{
+
+    background: gray;
+}
+.footer{
+    height: 15%;
+
+}
+.footer td{
+    width: 25%;
+    background: darkorange;
+}

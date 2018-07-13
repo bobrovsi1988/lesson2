@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+div{
+    border: 5px white;
+    margin: 1px;
+}
+.left{
+    float: left;
+}
+.block{
+    width: 50%;
+    height: 20%;
+
+
+    position: absolute;
+
+    top: 0;
+    display: inline-block;
+    background-color: red;
+}
+.first {
+
+    margin-left: 0;
+    margin-right: auto;
+    float: left;
+
+    left: 0;
+
+}
+.second{
+
+    margin-left: auto;
+    margin-right: 0;
+    float: right;
+
+    right: 0;
+
+}
+.content{
+    height: 40%;
+    background: greenyellow;
+    display: block;
+}
+.row{
+    height: 30%;
+    margin: 0 auto;
+}
+.row div{
+
+position: relative;
+    border: 1px solid white;
+    width: 33%;
+    height: 100%;
+    background-color: green;
+    top: 0;
+    right: -2px;
+    float: left;
+}
+.footer{
+    height: 10%;
+
+}
+.footer div{
+
+    border: 1px solid white;
+    margin: 0;
+    height: 100%;
+    width: 24.85%;
+    background-color: blue;
+    float: left;
+}

@@ -1,0 +1,78 @@
+*{margin: 0;
+padding: 0;}
+body{
+    width: 100%;
+    height: 100vh;
+
+}
+.block-size{
+    margin: 0 auto;
+    width: 90%;
+    height: 15%;
+}
+header{
+    text-align: center;
+    background-color: cadetblue;
+    border-radius: 0 0 10px 10px;
+}
+div{
+    margin: 0 auto;
+    width: 90%;
+    height: 90%;
+}
+article{
+
+    border-radius: 10px 0 0 10px;
+    width: 90%;
+    height: 100%;
+    float: left;
+    background-color: blue;
+}
+article p{margin: 15px 0 0 15px}
+menu{
+    border-radius: 0 10px 10px 0 ;
+    float: right;
+    position: static;
+    right: 0;
+    bottom: 0;
+    width: 10%;
+    height: 100%;
+    background:rgba(120, 120, 120, 0.5);
+
+}
+footer{
+    background-color: cadetblue;
+    border-radius: 10px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    font-family: Geneva;
+    font-size: 10pt;
+    font-weight: 800;
+}
+ menu ul{
+
+    margin: 15%;
+     list-style: decimal;
+}
+.butt{
+
+background-color: cyan;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5px;
+    height: 30px;
+
+ }
+
+article ul{
+    list-style: none;
+    margin-left: 10%;
+}
+article ul li{
+    margin: 10px;
+}
+article ul li:before{
+    content: "\03D5    ";;
+}
